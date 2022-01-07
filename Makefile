@@ -8,7 +8,7 @@ install:
 
 ## Build binary
 build:
-	goreleaser build
+	goreleaser build --rm-dist --snapshot
 
 .PHONY: test
 ## Run tests
